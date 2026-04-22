@@ -1,0 +1,81 @@
+<?php include 'includes/header.php'; ?>
+
+<section class="section">
+    <div class="container" style="padding-top: 100px;">
+        <h1 class="oversized-text">Portfólio & Casos</h1>
+        <p>A prova material do que o design, aliado aos dados, é capaz de entregar.</p>
+        
+        <div style="margin-top: 4rem;">
+            <!-- Casos de Sucesso Tráfego -->
+            <div style="margin-bottom: 6rem;">
+                <h2 style="font-family: var(--font-heading); font-size: 2.5rem; border-bottom: 1px solid var(--border-color); padding-bottom: 1rem; margin-bottom: 2rem; color: var(--accent);">Tráfego Pago & Resultados</h2>
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem;">
+                    
+                    <div class="glass-panel" style="padding: 2.5rem;">
+                        <h3 style="font-size: 1.5rem; margin-bottom: 1.5rem;">Lançamento Infoproduto (Exemplo Real)</h3>
+                        <div style="margin-bottom: 1rem;">
+                            <strong style="color: var(--text-main);">Desafio:</strong> 
+                            <span style="color: var(--text-muted); font-size: 0.95rem;">Baixa tração nos primeiros 3 dias e custo do lead muito alto.</span>
+                        </div>
+                        <div style="margin-bottom: 1rem;">
+                            <strong style="color: var(--text-main);">Estratégia:</strong> 
+                            <span style="color: var(--text-muted); font-size: 0.95rem;">Refinamento de público no Facebook Ads e interrupção do padrão visual criativo com novos motion graphics.</span>
+                        </div>
+                        <div style="margin-top: 2rem; background: var(--bg-dark); padding: 1rem; border-left: 4px solid #4CAF50;">
+                            <strong style="font-size: 1.8rem; color: #4CAF50;">+43%</strong>
+                            <p style="margin:0; font-size:0.85rem;">de aumento nas Vendas</p>
+                            <p style="margin:0; font-size:0.85rem; margin-top: 0.5rem;">Redução de 30% no CAC.</p>
+                        </div>
+                    </div>
+
+                    <div class="glass-panel" style="padding: 2.5rem;">
+                        <h3 style="font-size: 1.5rem; margin-bottom: 1.5rem;">Escala E-commerce</h3>
+                        <div style="margin-bottom: 1rem;">
+                            <strong style="color: var(--text-main);">Desafio:</strong> 
+                            <span style="color: var(--text-muted); font-size: 0.95rem;">Bater teto de faturamento mensal presenciando queda constante de ROAS nas campanhas do Google.</span>
+                        </div>
+                        <div style="margin-bottom: 1rem;">
+                            <strong style="color: var(--text-main);">Estratégia:</strong> 
+                            <span style="color: var(--text-muted); font-size: 0.95rem;">Implementação de Performance Max focado em categorias de produtos específicos.</span>
+                        </div>
+                        <div style="margin-top: 2rem; background: var(--bg-dark); padding: 1rem; border-left: 4px solid #4CAF50;">
+                            <strong style="font-size: 1.8rem; color: #4CAF50;">6.2x</strong>
+                            <p style="margin:0; font-size:0.85rem;">de ROAS Consolidado</p>
+                            <p style="margin:0; font-size:0.85rem; margin-top: 0.5rem;">(Retorno sobre investimento)</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Vitrines Visuais -->
+            <div style="margin-bottom: 6rem;">
+                <h2 style="font-family: var(--font-heading); font-size: 2.5rem; border-bottom: 1px solid var(--border-color); padding-bottom: 1rem; margin-bottom: 2rem; color: var(--accent);">Design Gráfico</h2>
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem;">
+                    <div style="aspect-ratio: 1; background: var(--glass-bg); border: 1px solid var(--glass-border); border-radius: 4px; display: flex; align-items: center; justify-content: center; color: var(--text-muted);">[Projeto de Identidade 1]</div>
+                    <div style="aspect-ratio: 1; background: var(--glass-bg); border: 1px solid var(--glass-border); border-radius: 4px; display: flex; align-items: center; justify-content: center; color: var(--text-muted);">[Material de Redes 2]</div>
+                    <div style="aspect-ratio: 1; background: var(--glass-bg); border: 1px solid var(--glass-border); border-radius: 4px; display: flex; align-items: center; justify-content: center; color: var(--text-muted);">[Apresentação Premium 3]</div>
+                </div>
+            </div>
+
+            <div>
+                <h2 style="font-family: var(--font-heading); font-size: 2.5rem; border-bottom: 1px solid var(--border-color); padding-bottom: 1rem; margin-bottom: 2rem; color: var(--accent);">Videomaker</h2>
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); gap: 2rem;">
+                    <div class="glass-panel" style="padding: 1rem;">
+                        <div style="background: #000; width: 100%; aspect-ratio: 16/9; display: flex; align-items: center; justify-content: center;">
+                            <span style="color: #666;">[ YouTube Embed: Vídeo Comercial ]</span>
+                        </div>
+                        <h4 style="margin-top: 1rem; margin-left: 0.5rem; font-family: var(--font-heading);">Campanha de Lançamento Y</h4>
+                    </div>
+                    <div class="glass-panel" style="padding: 1rem;">
+                        <div style="background: #000; width: 100%; aspect-ratio: 16/9; display: flex; align-items: center; justify-content: center;">
+                            <span style="color: #666;">[ YouTube Embed: Video Promocional ]</span>
+                        </div>
+                        <h4 style="margin-top: 1rem; margin-left: 0.5rem; font-family: var(--font-heading);">Cobertura de Evento Z</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<?php include 'includes/footer.php'; ?>

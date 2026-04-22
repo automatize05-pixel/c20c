@@ -1,0 +1,109 @@
+<?php include 'includes/header.php'; ?>
+
+<!-- CABEÇALHO DA LANDING PAGE -->
+<section class="section hero-section">
+    <div class="container hero-container" style="padding-top: 120px; display: flex; align-items: center; min-height: 80vh;">
+        
+        <!-- Coluna Esquerda: Textos e Botões -->
+        <div class="hero-content" style="max-width: 700px; text-align: left;">
+            <h1 class="animate-on-scroll" style="font-size: clamp(1.8rem, 3.5vw, 2.8rem); line-height: 1.2; letter-spacing: -0.02em;">
+                O SEU NEGÓCIO ESTÁ <span style="color: var(--accent);">PERDENDO DINHEIRO</span> NESTE EXATO MINUTO.<br>E A CULPA É DO SEU POSICIONAMENTO.
+            </h1>
+            <p class="hero-subtitle animate-on-scroll" style="margin: 2rem 0; font-size: 1.2rem; color: var(--text-muted);">
+                Na C20C, nós não fazemos "artes bonitinhas". Criamos verdadeiras máquinas de conversão unindo Design Estratégico, Vídeos de Alta Retenção e Tráfego Pago agressivo. O mercado não perdoa amadores. Você vai assumir a liderança ou continuar invisível para o seu cliente ideal?
+            </p>
+            <div class="cta-group animate-on-scroll" style="display: flex; flex-direction: column; align-items: flex-start; gap: 0.5rem; margin-top: 3rem;">
+                <a href="https://wa.me/244935633735?text=Ol%C3%A1%21%20Quero%20dominar%20o%20meu%20mercado." target="_blank" class="btn btn-giant" style="max-width: fit-content; padding-left: 2rem; padding-right: 2rem;">QUERO DOMINAR O MEU MERCADO AGORA</a>
+                <span style="font-size: 0.85rem; color: var(--text-muted); opacity: 0.8; font-family: var(--font-heading); margin-top: 0.5rem;">⚡ Atenção: Capacidade de atendimento limitada.</span>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!-- SEÇÃO 1: A DOR E A NECESSIDADE -->
+<section class="section" style="background: var(--bg-panel);">
+    <div class="container">
+        <div style="max-width: 800px; margin: 0 auto;">
+            <h2 class="animate-on-scroll" style="color: var(--accent); font-size: clamp(1.8rem, 4vw, 3rem); margin-bottom: 2rem; border-left: 4px solid var(--accent); padding-left: 1rem;">
+                ESTÉTICA SEM RESULTADO É APENAS ENFEITE. E ENFEITE NÃO PAGA AS CONTAS.
+            </h2>
+            <div class="animate-on-scroll" style="font-size: 1.15rem; line-height: 1.8;">
+                <p>Seja honesto: de que adianta ter o melhor produto ou serviço de Brasília e do Brasil, se quando o seu cliente procura uma solução, ele clica no anúncio do seu concorrente?</p>
+                <p>Você queima dinheiro com tráfego porque o seu design não transmite confiança.</p>
+                <p>Os seus vídeos não prendem a atenção por mais de 3 segundos.</p>
+                <p><strong>Você atrai curiosos, mas não atrai compradores.</strong></p>
+                <p>A cada dia que você adia a profissionalização da sua comunicação, um concorrente com um produto inferior ao seu está roubando as suas vendas. A C20C existe para estancar essa perda e virar o jogo a seu favor.</p>
+            </div>
+            
+            <!-- Provas -->
+            <div class="glass-panel animate-on-scroll" style="margin-top: 3rem; padding: 2rem; display: flex; flex-wrap: wrap; gap: 2rem; justify-content: center;">
+                <div style="flex: 1; min-width: 200px; text-align: center; border-right: 1px solid var(--border-color);">
+                    <strong style="font-size: 2.5rem; color: var(--accent); font-family: var(--font-heading);">+300%</strong>
+                    <p style="margin:0; font-size:0.9rem;">de ROI em Google Ads</p>
+                </div>
+                <div style="flex: 1; min-width: 200px; text-align: center;">
+                    <strong style="font-size: 2.5rem; color: var(--accent); font-family: var(--font-heading);">+40%</strong>
+                    <p style="margin:0; font-size:0.9rem;">no Fechamento de Clientes (Branding)</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- SEÇÃO 2: A SOLUÇÃO (O Arsenal da C20C) -->
+<section class="section">
+    <div class="container">
+        <h2 class="animate-on-scroll" style="text-align: center; margin-bottom: 4rem; font-size: clamp(2rem, 5vw, 3.5rem);">O ECOSSISTEMA C20C: PRECISÃO, RETENÇÃO E ESCALA.</h2>
+        
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem;">
+            <div class="glass-panel animate-on-scroll" style="padding: 3rem;">
+                <h3 style="color: var(--text-main); margin-bottom: 1.5rem; font-size: 1.5rem;">Bloco 1: Design Gráfico de Alta Conversão</h3>
+                <p style="font-size: 1rem;">Não criamos para preencher feed. Criamos identidades visuais e criativos desenhados psicologicamente para gerar a ação imediata. Maximizamos a sua Taxa de Clique (CTR). Seu cliente vai parar de rolar a tela e prestar atenção em você.</p>
+            </div>
+            
+            <div class="glass-panel animate-on-scroll" style="padding: 3rem;">
+                <h3 style="color: var(--text-main); margin-bottom: 1.5rem; font-size: 1.5rem;">Bloco 2: Vídeos Que Hipnotizam</h3>
+                <p style="font-size: 1rem;">A moeda mais cara da internet é a atenção. Produzimos vídeos comerciais e conteúdos dinâmicos com roteiros voltados para retenção e desejo absoluto pelo seu produto. Do primeiro milissegundo até a chamada para ação.</p>
+            </div>
+            
+            <div class="glass-panel animate-on-scroll" style="padding: 3rem;">
+                <h3 style="color: var(--text-main); margin-bottom: 1.5rem; font-size: 1.5rem;">Bloco 3: Tráfego Pago Agressivo</h3>
+                <p style="font-size: 1rem;">A gasolina para o seu motor. Usamos inteligência de dados e testes rigorosos para colocar a sua marca exatamente na frente de quem já está com o cartão de crédito na mão. Sem métricas de vaidade, focamos em ROI (Retorno sobre Investimento).</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- SEÇÃO 3: SOBRE A AGÊNCIA -->
+<section class="section" style="background: var(--bg-panel);">
+    <div class="container">
+        <div style="max-width: 800px; margin: 0 auto; text-align: center;">
+            <h2 class="animate-on-scroll" style="margin-bottom: 2rem; font-size: clamp(1.8rem, 4vw, 3rem);">QUEM SOMOS NÓS E POR QUE VOCÊ DEVERIA NOS OUVIR?</h2>
+            <div class="animate-on-scroll" style="text-align: left; font-size: 1.15rem; line-height: 1.8;">
+                <p>Esqueça as agências tradicionais que demoram semanas para entregar relatórios que não dizem nada. A C20C não é uma fábrica de postagens. Nós somos parceiros de crescimento e operamos como atiradores de elite no ambiente digital.</p>
+                <p>Liderada por Cleusio, a nossa operação tem base em Brasília, mas foco em dominação de mercado. Nós não temos interesse em fazer você "ficar conhecido"; nós entramos no jogo para fazer você lucrar. Combinamos a precisão do design, o poder de persuasão do audiovisual e a matemática fria da gestão de tráfego para construir uma presença digital impossível de ser ignorada.</p>
+                <p>Nós não aceitamos qualquer cliente. Trabalhamos apenas com negócios que têm ambição real de crescimento e estão preparados para escalar. Se você quer jogar pequeno, procure outra agência. Se você quer o topo, está no lugar certo.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- SEÇÃO 4: ESCASSEZ EXTREMA E CHAMADA FINAL -->
+<section class="section" style="text-align: center; border-top: 1px solid var(--accent); position: relative; overflow: hidden;">
+    <!-- Pseudo glow effect -->
+    <div style="position: absolute; top: 0; left: 50%; transform: translateX(-50%); width: 60%; height: 2px; box-shadow: 0 0 40px 10px rgba(255, 59, 48, 0.2);"></div>
+    
+    <div class="container animate-on-scroll">
+        <h2 style="color: var(--accent); font-size: clamp(2rem, 5vw, 4rem); margin-bottom: 2rem;">O SEU TEMPO ESTÁ ACABANDO.<br>E AS NOSSAS VAGAS TAMBÉM.</h2>
+        <div style="max-width: 700px; margin: 0 auto 3rem auto; font-size: 1.2rem;">
+            <p>Para entregarmos o nível absurdo de resultado e atenção que exigimos de nós mesmos, nós limitamos rigorosamente o número de parceiros que assumimos por mês.</p>
+            <p>Neste momento, temos capacidade para absorver apenas mais <strong>2 projetos</strong> na C20C. A próxima vaga pode demorar meses para abrir.</p>
+            <p><strong>O seu concorrente está, neste exato momento, pensando em investir mais. O que você vai fazer?</strong></p>
+        </div>
+        
+        <a href="https://wa.me/244935633735?text=Ol%C3%A1%21%20Gostaria%20de%20aplicar%20para%20uma%20das%20vagas%20da%20C20C%20com%20urg%C3%AAncia." target="_blank" class="btn btn-giant animate-on-scroll" style="animation: pulse 2s infinite;">APLICAR PARA UMA VAGA NA C20C AGORA</a>
+    </div>
+</section>
+
+<?php include 'includes/footer.php'; ?>

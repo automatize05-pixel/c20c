@@ -1,0 +1,62 @@
+<?php include 'includes/header.php'; ?>
+
+<section class="section">
+    <div class="container" style="padding-top: 100px;">
+        <h1 class="oversized-text" style="color: var(--accent);">Vamos Escalar.</h1>
+        <p>Abaixo você encontra as informações para darmos o primeiro passo na sua próxima campanha de vendas ou projeto visual de alto impacto.</p>
+
+        <div style="display: grid; grid-template-columns: 1fr; gap: 4rem; padding-top: 4rem;">
+            <!-- Formulário Contato Custom -->
+            <div class="glass-panel" style="padding: 3rem; max-width: 600px; margin: 0 auto; width: 100%;">
+                <form action="#" method="POST" style="display: flex; flex-direction: column; gap: 1.5rem;">
+                    
+                    <div style="display: flex; flex-direction: column; gap: 0.5rem;">
+                        <label for="nome" style="font-family: var(--font-heading); font-size: 0.85rem; text-transform: uppercase; letter-spacing: 1px; color: var(--text-main);">Seu Nome</label>
+                        <input type="text" id="nome" name="nome" required style="background: transparent; border: none; border-bottom: 1px solid var(--border-color); padding: 0.8rem 0; color: #fff; font-family: var(--font-body); font-size: 1.1rem; outline: none; transition: var(--transition-smooth);">
+                    </div>
+
+                    <div style="display: flex; flex-direction: column; gap: 0.5rem;">
+                        <label for="email" style="font-family: var(--font-heading); font-size: 0.85rem; text-transform: uppercase; letter-spacing: 1px; color: var(--text-main);">Seu E-mail</label>
+                        <input type="email" id="email" name="email" required style="background: transparent; border: none; border-bottom: 1px solid var(--border-color); padding: 0.8rem 0; color: #fff; font-family: var(--font-body); font-size: 1.1rem; outline: none; transition: var(--transition-smooth);">
+                    </div>
+
+                    <div style="display: flex; flex-direction: column; gap: 0.5rem;">
+                        <label for="interesse" style="font-family: var(--font-heading); font-size: 0.85rem; text-transform: uppercase; letter-spacing: 1px; color: var(--text-main);">Serviço de Interesse</label>
+                        <select id="interesse" name="interesse" style="background: var(--bg-panel); border: 1px solid var(--border-color); padding: 0.8rem 1rem; color: #fff; font-family: var(--font-heading); outline: none;">
+                            <option value="design">Design Gráfico / Identidade Visual</option>
+                            <option value="video">Videomaker / Edição</option>
+                            <option value="trafego">Gestão de Tráfego Pago / Escala</option>
+                            <option value="consultoria">Consultoria Geral</option>
+                        </select>
+                    </div>
+
+                    <button type="submit" class="btn" style="margin-top: 1rem; width: 100%;">Enviar Solicitação</button>
+                    
+                    <div style="text-align: center; margin-top: 2rem;">
+                        <p style="font-size: 0.9rem; margin-bottom: 1rem;">Ou fale diretamente usando nossos canais:</p>
+                        <a href="https://wa.me/244935633735" target="_blank" class="btn btn-secondary" style="border-color: #25D366; color: #25D366; width: 100%; display: inline-block; margin-bottom: 1rem;">WhatsApp: +244 935 633 735</a>
+                        <a href="mailto:chilimacleusio2@gmail.com" class="btn btn-secondary" style="border-color: #fff; color: #fff; width: 100%; display: inline-block;">Email: chilimacleusio2@gmail.com</a>
+                    </div>
+                </form>
+            </div>
+            
+            <div style="text-align: center; margin-top: 2rem;">
+                <p style="font-family: var(--font-heading); font-size: 0.85rem; text-transform: uppercase; letter-spacing: 2px;">Conecte-se também nas redes</p>
+                <div style="display: flex; justify-content: center; gap: 2rem; margin-top: 1rem;">
+                    <a href="#" style="color: var(--text-main); font-size: 1.5rem; text-decoration: none; font-family: var(--font-heading);">Instagram</a>
+                    <a href="#" style="color: var(--text-main); font-size: 1.5rem; text-decoration: none; font-family: var(--font-heading);">LinkedIn</a>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</section>
+
+<!-- Adicionando focus effect basico aos inputs no CSS in-line (usando style.css proximo projeto) -->
+<style>
+input:focus {
+    border-bottom: 1px solid var(--accent) !important;
+}
+</style>
+
+<?php include 'includes/footer.php'; ?>
