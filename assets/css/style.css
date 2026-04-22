@@ -36,10 +36,6 @@ html {
 
 body {
   background-color: var(--bg-dark);
-  background-image: url('../images/bg-c20c.png'); /* Imagem cobrindo o site todo */
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
   color: var(--text-main);
   font-family: var(--font-body);
   font-size: 1rem;
@@ -47,6 +43,35 @@ body {
   overflow-x: hidden;
   /* Custom Cursor Base */
   cursor: none;
+}
+
+/* Global Background Fix for Mobile & Smooth Load */
+.global-bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-image: url('../images/bg-c20c.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: -999;
+  pointer-events: none;
+  opacity: 0;
+  animation: bgFadeIn 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
+}
+
+@keyframes bgFadeIn {
+  from { opacity: 0; transform: scale(1.05); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+@media (max-width: 768px) {
+  .global-bg {
+    /* Ajusta a posição no mobile para o logo não sumir e nem quebrar o aspecto */
+    background-position: 80% center;
+  }
 }
 
 .cursor-dot {
